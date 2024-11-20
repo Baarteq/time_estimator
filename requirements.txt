@@ -5,4 +5,4 @@ pydub
 pandas
 pycaret
 langfuse
-python-3.10.4
+python-3.11
