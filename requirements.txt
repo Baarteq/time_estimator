@@ -3,5 +3,5 @@ python-dotenv
 streamlit
 pydub
 pandas
-pycaret 3.3.1
+pycaret=3.3.1
 langfuse
