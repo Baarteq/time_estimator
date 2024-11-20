@@ -1,0 +1,9 @@
+File "/workspace/.heroku/python/lib/python3.12/site-packages/streamlit/runtime/scriptrunner/exec_code.py", line 88, in exec_func_with_error_handling
+    result = func()
+             ^^^^^^
+File "/workspace/.heroku/python/lib/python3.12/site-packages/streamlit/runtime/scriptrunner/script_runner.py", line 579, in code_to_exec
+    exec(code, module.__dict__)
+File "/workspace/app.py", line 9, in <module>
+    from pycaret.regression import load_model, predict_model
+File "/workspace/.heroku/python/lib/python3.12/site-packages/pycaret/__init__.py", line 22, in <module>
+    raise RuntimeError(
