@@ -1,8 +1,8 @@
-openai=1.51.0
-python-dotenv=1.0.1
-streamlit=1.38.0
-pydub=0.25.1
-pandas=2.2.3
-pycaret=3.3.1
-python=3.11.9
-langfuse=2.53.9
+openai==1.51.0
+python-dotenv==1.0.1
+streamlit==1.38.0
+pydub==0.25.1
+pandas==2.2.3
+pycaret==3.3.1
+python==3.11.9
+langfuse==2.53.9
