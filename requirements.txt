@@ -4,5 +4,4 @@ streamlit==1.38.0
 pydub==0.25.1
 pandas==2.2.3
 pycaret==3.3.2
-python==3.11
 langfuse==2.53.9
