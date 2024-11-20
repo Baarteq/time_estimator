@@ -1,0 +1,40 @@
+2024-11-20 15:26:31,201:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2024-11-20 15:26:31,201:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2024-11-20 15:26:31,201:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2024-11-20 15:26:31,201:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2024-11-20 15:27:12,890:INFO:Initializing load_model()
+2024-11-20 15:27:12,891:INFO:load_model(model_name=regression_pipeline, platform=None, authentication=None, verbose=True)
+2024-11-20 15:27:13,252:INFO:Initializing predict_model()
+2024-11-20 15:27:13,253:INFO:predict_model(self=<pycaret.regression.oop.RegressionExperiment object at 0x0000026FD6E75A50>, estimator=Pipeline(memory=Memory(location=None),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(include=['Rocznik', '5 km Czas',
+                                             '15 km Czas'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=['Płeć'],
+                                    transformer=SimpleImputer(strategy='most_frequent'))),
+                ('ordinal_encoding',
+                 TransformerWrapper(include=['Płeć'],
+                                    transformer=OrdinalEncoder(cols=['Płeć'],
+                                                               handle_missing='return_nan',
+                                                               mapping=[{'col': 'Płeć',
+                                                                         'data_type': dtype('O'),
+                                                                         'mapping': K      0
+M      1
+NaN   -1
+dtype: int64}]))),
+                ('clean_column_names',
+                 TransformerWrapper(transformer=CleanColumnNames())),
+                ('actual_estimator',
+                 LGBMRegressor(n_jobs=-1, random_state=123))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x0000026FD6FE0B80>)
+2024-11-20 15:27:13,253:INFO:Checking exceptions
+2024-11-20 15:27:13,253:INFO:Preloading libraries
+2024-11-20 15:27:13,254:INFO:Set up data.
+2024-11-20 15:27:13,260:INFO:Set up index.
+2024-11-20 15:27:13,519:WARNING:C:\Users\Bartek\Desktop\od_zera_do_ai\modul_9\zadanie9\app.py:152: FutureWarning: Series.__getitem__ treating keys as positions is deprecated. In a future version, integer keys will always be treated as labels (consistent with DataFrame behavior). To access a value by position, use `ser.iloc[pos]`
+  prediction_seconds = round(prediction["prediction_label"][0], 2)
+
